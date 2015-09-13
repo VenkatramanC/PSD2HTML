@@ -1,0 +1,552 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/venkatraman/.nvm/versions/node/v4.0.0/bin/node',
+1 verbose cli   '/home/venkatraman/.nvm/versions/node/v4.0.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-contrib-sass',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.14.2
+3 info using node@v4.0.0
+4 verbose install initial load of /home/venkatraman/Desktop/psd2html/package.json
+5 warn package.json psd2html@1.0.0 No description
+6 verbose installManyTop reading scoped package data from /home/venkatraman/Desktop/psd2html/node_modules/grunt/package.json
+7 verbose installManyTop reading scoped package data from /home/venkatraman/Desktop/psd2html/node_modules/grunt-cli/package.json
+8 info package.json grunt@0.4.5 No license field.
+9 info package.json grunt-cli@0.1.13 No license field.
+10 verbose readDependencies loading dependencies from /home/venkatraman/Desktop/psd2html/package.json
+11 silly cache add args [ 'grunt-contrib-sass', null ]
+12 verbose cache add spec grunt-contrib-sass
+13 silly cache add parsed spec Result {
+13 silly cache add   raw: 'grunt-contrib-sass',
+13 silly cache add   scope: null,
+13 silly cache add   name: 'grunt-contrib-sass',
+13 silly cache add   rawSpec: '',
+13 silly cache add   spec: '*',
+13 silly cache add   type: 'range' }
+14 silly addNamed grunt-contrib-sass@*
+15 verbose addNamed "*" is a valid semver range for grunt-contrib-sass
+16 silly addNameRange { name: 'grunt-contrib-sass', range: '*', hasData: false }
+17 silly mapToRegistry name grunt-contrib-sass
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-sass
+21 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-sass not in flight; fetching
+22 verbose request uri https://registry.npmjs.org/grunt-contrib-sass
+23 verbose request no auth needed
+24 info attempt registry request try #1 at 12:21:33 PM
+25 verbose request id f944944934a01a5a
+26 verbose etag "8NJ90QLU7LGL0HOUEIHAPEVW9"
+27 http request GET https://registry.npmjs.org/grunt-contrib-sass
+28 http 304 https://registry.npmjs.org/grunt-contrib-sass
+29 silly get cb [ 304,
+29 silly get   { date: 'Sun, 13 Sep 2015 06:51:35 GMT',
+29 silly get     via: '1.1 varnish',
+29 silly get     'cache-control': 'max-age=60',
+29 silly get     etag: '"8NJ90QLU7LGL0HOUEIHAPEVW9"',
+29 silly get     age: '47',
+29 silly get     connection: 'keep-alive',
+29 silly get     'x-served-by': 'cache-sin6922-SIN',
+29 silly get     'x-cache': 'HIT',
+29 silly get     'x-cache-hits': '1',
+29 silly get     'x-timer': 'S1442127095.560134,VS0,VE0',
+29 silly get     vary: 'Accept' } ]
+30 verbose etag https://registry.npmjs.org/grunt-contrib-sass from cache
+31 verbose get saving grunt-contrib-sass to /home/venkatraman/.npm/registry.npmjs.org/grunt-contrib-sass/.cache.json
+32 silly addNameRange number 2 { name: 'grunt-contrib-sass', range: '*', hasData: true }
+33 silly addNameRange versions [ 'grunt-contrib-sass',
+33 silly addNameRange   [ '0.1.0',
+33 silly addNameRange     '0.1.1',
+33 silly addNameRange     '0.1.2',
+33 silly addNameRange     '0.1.3',
+33 silly addNameRange     '0.2.0',
+33 silly addNameRange     '0.2.1',
+33 silly addNameRange     '0.2.2',
+33 silly addNameRange     '0.3.0',
+33 silly addNameRange     '0.4.0',
+33 silly addNameRange     '0.4.1',
+33 silly addNameRange     '0.5.0',
+33 silly addNameRange     '0.5.1',
+33 silly addNameRange     '0.6.0',
+33 silly addNameRange     '0.2.2-rc7',
+33 silly addNameRange     '0.7.0',
+33 silly addNameRange     '0.7.1',
+33 silly addNameRange     '0.7.2',
+33 silly addNameRange     '0.7.3',
+33 silly addNameRange     '0.7.4',
+33 silly addNameRange     '0.8.0',
+33 silly addNameRange     '0.8.1',
+33 silly addNameRange     '0.9.0',
+33 silly addNameRange     '0.9.1',
+33 silly addNameRange     '0.9.2' ] ]
+34 silly addNamed grunt-contrib-sass@0.9.2
+35 verbose addNamed "0.9.2" is a plain semver version for grunt-contrib-sass
+36 silly cache afterAdd grunt-contrib-sass@0.9.2
+37 verbose afterAdd /home/venkatraman/.npm/grunt-contrib-sass/0.9.2/package/package.json not in flight; writing
+38 verbose afterAdd /home/venkatraman/.npm/grunt-contrib-sass/0.9.2/package/package.json written
+39 silly install resolved [ { name: 'grunt-contrib-sass',
+39 silly install resolved     description: 'Compile Sass to CSS',
+39 silly install resolved     version: '0.9.2',
+39 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+39 silly install resolved     repository:
+39 silly install resolved      { type: 'git',
+39 silly install resolved        url: 'git+https://github.com/gruntjs/grunt-contrib-sass.git' },
+39 silly install resolved     licenses: [ [Object] ],
+39 silly install resolved     engines: { node: '>=0.10.0' },
+39 silly install resolved     scripts: { test: 'grunt test' },
+39 silly install resolved     dependencies:
+39 silly install resolved      { async: '^0.9.0',
+39 silly install resolved        chalk: '^0.5.1',
+39 silly install resolved        'cross-spawn': '^0.2.3',
+39 silly install resolved        dargs: '^4.0.0',
+39 silly install resolved        which: '^1.0.5' },
+39 silly install resolved     devDependencies:
+39 silly install resolved      { grunt: '^0.4.5',
+39 silly install resolved        'grunt-cli': '^0.1.13',
+39 silly install resolved        'grunt-contrib-clean': '^0.6.0',
+39 silly install resolved        'grunt-contrib-internal': '^0.4.10',
+39 silly install resolved        'grunt-contrib-jshint': '^0.11.0',
+39 silly install resolved        'grunt-contrib-nodeunit': '^0.4.1' },
+39 silly install resolved     peerDependencies: { grunt: '>=0.4.0' },
+39 silly install resolved     keywords:
+39 silly install resolved      [ 'gruntplugin',
+39 silly install resolved        'scss',
+39 silly install resolved        'sass',
+39 silly install resolved        'css',
+39 silly install resolved        'compile',
+39 silly install resolved        'preprocessor',
+39 silly install resolved        'style' ],
+39 silly install resolved     files: [ 'tasks' ],
+39 silly install resolved     contributors: [ [Object], [Object] ],
+39 silly install resolved     gitHead: '693e73ca21020ea51af5f0e66704f7a950abc22d',
+39 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-sass/issues' },
+39 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-sass',
+39 silly install resolved     _id: 'grunt-contrib-sass@0.9.2',
+39 silly install resolved     _shasum: '749f0e78284e91452c5a57fe044dde34489513c6',
+39 silly install resolved     _from: 'grunt-contrib-sass@*',
+39 silly install resolved     _npmVersion: '1.4.28',
+39 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+39 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+39 silly install resolved     dist:
+39 silly install resolved      { shasum: '749f0e78284e91452c5a57fe044dde34489513c6',
+39 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-sass/-/grunt-contrib-sass-0.9.2.tgz' },
+39 silly install resolved     directories: {},
+39 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-sass/-/grunt-contrib-sass-0.9.2.tgz',
+39 silly install resolved     readme: 'ERROR: No README data found!' } ]
+40 info install grunt-contrib-sass@0.9.2 into /home/venkatraman/Desktop/psd2html
+41 info installOne grunt-contrib-sass@0.9.2
+42 verbose installOne of grunt-contrib-sass to /home/venkatraman/Desktop/psd2html not in flight; installing
+43 verbose lock using /home/venkatraman/.npm/_locks/grunt-contrib-sass-448f32f4c1c8aabe.lock for /home/venkatraman/Desktop/psd2html/node_modules/grunt-contrib-sass
+44 silly install write writing grunt-contrib-sass 0.9.2 to /home/venkatraman/Desktop/psd2html/node_modules/grunt-contrib-sass
+45 verbose unbuild node_modules/grunt-contrib-sass
+46 silly gentlyRm /home/venkatraman/Desktop/psd2html/node_modules/grunt-contrib-sass is being purged from base /home/venkatraman/Desktop/psd2html
+47 verbose gentlyRm don't care about contents; nuking /home/venkatraman/Desktop/psd2html/node_modules/grunt-contrib-sass
+48 verbose tar unpack /home/venkatraman/.npm/grunt-contrib-sass/0.9.2/package.tgz
+49 verbose tar unpacking to /home/venkatraman/Desktop/psd2html/node_modules/grunt-contrib-sass
+50 silly gentlyRm /home/venkatraman/Desktop/psd2html/node_modules/grunt-contrib-sass is being purged
+51 verbose gentlyRm don't care about contents; nuking /home/venkatraman/Desktop/psd2html/node_modules/grunt-contrib-sass
+52 silly gunzTarPerm modes [ '775', '664' ]
+53 silly gunzTarPerm extractEntry package.json
+54 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+55 silly gunzTarPerm extractEntry README.md
+56 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+57 silly gunzTarPerm extractEntry tasks/sass.js
+58 silly gunzTarPerm modified mode [ 'tasks/sass.js', 420, 436 ]
+59 silly gunzTarPerm extractEntry tasks/lib/check.js
+60 silly gunzTarPerm modified mode [ 'tasks/lib/check.js', 420, 436 ]
+61 verbose write writing to /home/venkatraman/Desktop/psd2html/node_modules/grunt-contrib-sass/package.json
+62 info preinstall grunt-contrib-sass@0.9.2
+63 verbose readDependencies loading dependencies from /home/venkatraman/Desktop/psd2html/node_modules/grunt-contrib-sass/package.json
+64 silly prepareForInstallMany adding async@^0.9.0 from grunt-contrib-sass dependencies
+65 silly prepareForInstallMany adding chalk@^0.5.1 from grunt-contrib-sass dependencies
+66 silly prepareForInstallMany adding cross-spawn@^0.2.3 from grunt-contrib-sass dependencies
+67 silly prepareForInstallMany adding dargs@^4.0.0 from grunt-contrib-sass dependencies
+68 silly prepareForInstallMany adding which@^1.0.5 from grunt-contrib-sass dependencies
+69 verbose readDependencies loading dependencies from /home/venkatraman/Desktop/psd2html/node_modules/grunt-contrib-sass/package.json
+70 silly cache add args [ 'async@^0.9.0', null ]
+71 verbose cache add spec async@^0.9.0
+72 silly cache add args [ 'chalk@^0.5.1', null ]
+73 verbose cache add spec chalk@^0.5.1
+74 silly cache add parsed spec Result {
+74 silly cache add   raw: 'async@^0.9.0',
+74 silly cache add   scope: null,
+74 silly cache add   name: 'async',
+74 silly cache add   rawSpec: '^0.9.0',
+74 silly cache add   spec: '>=0.9.0 <0.10.0',
+74 silly cache add   type: 'range' }
+75 silly addNamed async@>=0.9.0 <0.10.0
+76 verbose addNamed ">=0.9.0 <0.10.0" is a valid semver range for async
+77 silly addNameRange { name: 'async', range: '>=0.9.0 <0.10.0', hasData: false }
+78 silly mapToRegistry name async
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry uri https://registry.npmjs.org/async
+82 verbose addNameRange registry:https://registry.npmjs.org/async not in flight; fetching
+83 silly cache add parsed spec Result {
+83 silly cache add   raw: 'chalk@^0.5.1',
+83 silly cache add   scope: null,
+83 silly cache add   name: 'chalk',
+83 silly cache add   rawSpec: '^0.5.1',
+83 silly cache add   spec: '>=0.5.1 <0.6.0',
+83 silly cache add   type: 'range' }
+84 silly addNamed chalk@>=0.5.1 <0.6.0
+85 verbose addNamed ">=0.5.1 <0.6.0" is a valid semver range for chalk
+86 silly addNameRange { name: 'chalk', range: '>=0.5.1 <0.6.0', hasData: false }
+87 silly mapToRegistry name chalk
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry uri https://registry.npmjs.org/chalk
+91 verbose addNameRange registry:https://registry.npmjs.org/chalk not in flight; fetching
+92 silly cache add args [ 'cross-spawn@^0.2.3', null ]
+93 verbose cache add spec cross-spawn@^0.2.3
+94 silly cache add parsed spec Result {
+94 silly cache add   raw: 'cross-spawn@^0.2.3',
+94 silly cache add   scope: null,
+94 silly cache add   name: 'cross-spawn',
+94 silly cache add   rawSpec: '^0.2.3',
+94 silly cache add   spec: '>=0.2.3 <0.3.0',
+94 silly cache add   type: 'range' }
+95 silly addNamed cross-spawn@>=0.2.3 <0.3.0
+96 verbose addNamed ">=0.2.3 <0.3.0" is a valid semver range for cross-spawn
+97 silly addNameRange { name: 'cross-spawn', range: '>=0.2.3 <0.3.0', hasData: false }
+98 silly mapToRegistry name cross-spawn
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry uri https://registry.npmjs.org/cross-spawn
+102 verbose addNameRange registry:https://registry.npmjs.org/cross-spawn not in flight; fetching
+103 silly cache add args [ 'dargs@^4.0.0', null ]
+104 verbose cache add spec dargs@^4.0.0
+105 silly cache add parsed spec Result {
+105 silly cache add   raw: 'dargs@^4.0.0',
+105 silly cache add   scope: null,
+105 silly cache add   name: 'dargs',
+105 silly cache add   rawSpec: '^4.0.0',
+105 silly cache add   spec: '>=4.0.0 <5.0.0',
+105 silly cache add   type: 'range' }
+106 silly addNamed dargs@>=4.0.0 <5.0.0
+107 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for dargs
+108 silly addNameRange { name: 'dargs', range: '>=4.0.0 <5.0.0', hasData: false }
+109 silly mapToRegistry name dargs
+110 silly mapToRegistry using default registry
+111 silly mapToRegistry registry https://registry.npmjs.org/
+112 silly mapToRegistry uri https://registry.npmjs.org/dargs
+113 verbose addNameRange registry:https://registry.npmjs.org/dargs not in flight; fetching
+114 silly cache add args [ 'which@^1.0.5', null ]
+115 verbose cache add spec which@^1.0.5
+116 silly cache add parsed spec Result {
+116 silly cache add   raw: 'which@^1.0.5',
+116 silly cache add   scope: null,
+116 silly cache add   name: 'which',
+116 silly cache add   rawSpec: '^1.0.5',
+116 silly cache add   spec: '>=1.0.5 <2.0.0',
+116 silly cache add   type: 'range' }
+117 silly addNamed which@>=1.0.5 <2.0.0
+118 verbose addNamed ">=1.0.5 <2.0.0" is a valid semver range for which
+119 silly addNameRange { name: 'which', range: '>=1.0.5 <2.0.0', hasData: false }
+120 silly mapToRegistry name which
+121 silly mapToRegistry using default registry
+122 silly mapToRegistry registry https://registry.npmjs.org/
+123 silly mapToRegistry uri https://registry.npmjs.org/which
+124 verbose addNameRange registry:https://registry.npmjs.org/which not in flight; fetching
+125 verbose request uri https://registry.npmjs.org/chalk
+126 verbose request no auth needed
+127 info attempt registry request try #1 at 12:21:35 PM
+128 verbose etag "2IP9870IIF0SL05KV8EWWELYR"
+129 http request GET https://registry.npmjs.org/chalk
+130 verbose request uri https://registry.npmjs.org/cross-spawn
+131 verbose request no auth needed
+132 info attempt registry request try #1 at 12:21:35 PM
+133 verbose etag "33L4Y9CZMCQK1WD5HM3A75P4K"
+134 http request GET https://registry.npmjs.org/cross-spawn
+135 verbose request uri https://registry.npmjs.org/which
+136 verbose request no auth needed
+137 info attempt registry request try #1 at 12:21:35 PM
+138 verbose etag "BH1C95FO21WODH0YQP2XC3F09"
+139 http request GET https://registry.npmjs.org/which
+140 verbose request uri https://registry.npmjs.org/async
+141 verbose request no auth needed
+142 info attempt registry request try #1 at 12:21:35 PM
+143 verbose etag "BVDLYCB4IZV4YWOW80VMAD3VG"
+144 http request GET https://registry.npmjs.org/async
+145 verbose request uri https://registry.npmjs.org/dargs
+146 verbose request no auth needed
+147 info attempt registry request try #1 at 12:21:35 PM
+148 verbose etag "3QBPPP6B8SZRBCZB60DEAFTSP"
+149 http request GET https://registry.npmjs.org/dargs
+150 http 304 https://registry.npmjs.org/which
+151 silly get cb [ 304,
+151 silly get   { date: 'Sun, 13 Sep 2015 06:51:36 GMT',
+151 silly get     via: '1.1 varnish',
+151 silly get     'cache-control': 'max-age=60',
+151 silly get     etag: '"BH1C95FO21WODH0YQP2XC3F09"',
+151 silly get     age: '16',
+151 silly get     connection: 'keep-alive',
+151 silly get     'x-served-by': 'cache-sin6922-SIN',
+151 silly get     'x-cache': 'HIT',
+151 silly get     'x-cache-hits': '13',
+151 silly get     'x-timer': 'S1442127096.325513,VS0,VE0',
+151 silly get     vary: 'Accept' } ]
+152 verbose etag https://registry.npmjs.org/which from cache
+153 verbose get saving which to /home/venkatraman/.npm/registry.npmjs.org/which/.cache.json
+154 http 304 https://registry.npmjs.org/async
+155 silly get cb [ 304,
+155 silly get   { date: 'Sun, 13 Sep 2015 06:51:36 GMT',
+155 silly get     via: '1.1 varnish',
+155 silly get     'cache-control': 'max-age=60',
+155 silly get     etag: '"BVDLYCB4IZV4YWOW80VMAD3VG"',
+155 silly get     age: '36',
+155 silly get     connection: 'keep-alive',
+155 silly get     'x-served-by': 'cache-sin6922-SIN',
+155 silly get     'x-cache': 'HIT',
+155 silly get     'x-cache-hits': '3',
+155 silly get     'x-timer': 'S1442127096.331607,VS0,VE0',
+155 silly get     vary: 'Accept' } ]
+156 verbose etag https://registry.npmjs.org/async from cache
+157 verbose get saving async to /home/venkatraman/.npm/registry.npmjs.org/async/.cache.json
+158 silly addNameRange number 2 { name: 'which', range: '>=1.0.5 <2.0.0', hasData: true }
+159 silly addNameRange versions [ 'which',
+159 silly addNameRange   [ '1.0.0',
+159 silly addNameRange     '1.0.1',
+159 silly addNameRange     '1.0.2',
+159 silly addNameRange     '1.0.3',
+159 silly addNameRange     '1.0.5',
+159 silly addNameRange     '1.0.6',
+159 silly addNameRange     '1.0.7',
+159 silly addNameRange     '1.0.8',
+159 silly addNameRange     '1.0.9',
+159 silly addNameRange     '1.1.0',
+159 silly addNameRange     '1.1.1',
+159 silly addNameRange     '1.1.2' ] ]
+160 silly addNamed which@1.1.2
+161 verbose addNamed "1.1.2" is a plain semver version for which
+162 silly mapToRegistry name which
+163 silly mapToRegistry using default registry
+164 silly mapToRegistry registry https://registry.npmjs.org/
+165 silly mapToRegistry uri https://registry.npmjs.org/which
+166 verbose addRemoteTarball https://registry.npmjs.org/which/-/which-1.1.2.tgz not in flight; adding
+167 verbose addRemoteTarball [ 'https://registry.npmjs.org/which/-/which-1.1.2.tgz',
+167 verbose addRemoteTarball   '486c48af6dfecc7a7dcf9c655acf108d2dcbdf3d' ]
+168 silly addNameRange number 2 { name: 'async', range: '>=0.9.0 <0.10.0', hasData: true }
+169 silly addNameRange versions [ 'async',
+169 silly addNameRange   [ '0.1.0',
+169 silly addNameRange     '0.1.1',
+169 silly addNameRange     '0.1.2',
+169 silly addNameRange     '0.1.3',
+169 silly addNameRange     '0.1.4',
+169 silly addNameRange     '0.1.5',
+169 silly addNameRange     '0.1.6',
+169 silly addNameRange     '0.1.7',
+169 silly addNameRange     '0.1.8',
+169 silly addNameRange     '0.1.9',
+169 silly addNameRange     '0.1.10',
+169 silly addNameRange     '0.1.11',
+169 silly addNameRange     '0.1.12',
+169 silly addNameRange     '0.1.13',
+169 silly addNameRange     '0.1.14',
+169 silly addNameRange     '0.1.15',
+169 silly addNameRange     '0.1.16',
+169 silly addNameRange     '0.1.17',
+169 silly addNameRange     '0.1.18',
+169 silly addNameRange     '0.1.19',
+169 silly addNameRange     '0.1.20',
+169 silly addNameRange     '0.1.21',
+169 silly addNameRange     '0.1.22',
+169 silly addNameRange     '0.2.0',
+169 silly addNameRange     '0.2.1',
+169 silly addNameRange     '0.2.2',
+169 silly addNameRange     '0.2.3',
+169 silly addNameRange     '0.2.4',
+169 silly addNameRange     '0.2.5',
+169 silly addNameRange     '0.2.6',
+169 silly addNameRange     '0.2.7',
+169 silly addNameRange     '0.2.8',
+169 silly addNameRange     '0.2.9',
+169 silly addNameRange     '0.2.10',
+169 silly addNameRange     '0.3.0',
+169 silly addNameRange     '0.4.0',
+169 silly addNameRange     '0.4.1',
+169 silly addNameRange     '0.5.0',
+169 silly addNameRange     '0.6.0',
+169 silly addNameRange     '0.6.1',
+169 silly addNameRange     '0.6.2',
+169 silly addNameRange     '0.7.0',
+169 silly addNameRange     '0.8.0',
+169 silly addNameRange     '0.9.0',
+169 silly addNameRange     '0.9.2',
+169 silly addNameRange     '1.0.0',
+169 silly addNameRange     '1.1.0',
+169 silly addNameRange     '1.2.0',
+169 silly addNameRange     '1.1.1',
+169 silly addNameRange     '1.2.1',
+169 silly addNameRange     '1.3.0',
+169 silly addNameRange     '1.4.0',
+169 silly addNameRange     '1.4.1',
+169 silly addNameRange     '1.4.2' ] ]
+170 silly addNamed async@0.9.2
+171 verbose addNamed "0.9.2" is a plain semver version for async
+172 silly mapToRegistry name async
+173 silly mapToRegistry using default registry
+174 silly mapToRegistry registry https://registry.npmjs.org/
+175 silly mapToRegistry uri https://registry.npmjs.org/async
+176 verbose addRemoteTarball https://registry.npmjs.org/async/-/async-0.9.2.tgz not in flight; adding
+177 verbose addRemoteTarball [ 'https://registry.npmjs.org/async/-/async-0.9.2.tgz',
+177 verbose addRemoteTarball   'aea74d5e61c1f899613bf64bda66d4c78f2fd17d' ]
+178 info retry fetch attempt 1 at 12:21:35 PM
+179 info attempt registry request try #1 at 12:21:35 PM
+180 http fetch GET https://registry.npmjs.org/async/-/async-0.9.2.tgz
+181 http 304 https://registry.npmjs.org/chalk
+182 silly get cb [ 304,
+182 silly get   { date: 'Sun, 13 Sep 2015 06:51:36 GMT',
+182 silly get     via: '1.1 varnish',
+182 silly get     'cache-control': 'max-age=60',
+182 silly get     etag: '"2IP9870IIF0SL05KV8EWWELYR"',
+182 silly get     age: '9',
+182 silly get     connection: 'keep-alive',
+182 silly get     'x-served-by': 'cache-sin6920-SIN',
+182 silly get     'x-cache': 'HIT',
+182 silly get     'x-cache-hits': '2',
+182 silly get     'x-timer': 'S1442127096.374627,VS0,VE0',
+182 silly get     vary: 'Accept' } ]
+183 verbose etag https://registry.npmjs.org/chalk from cache
+184 verbose get saving chalk to /home/venkatraman/.npm/registry.npmjs.org/chalk/.cache.json
+185 info retry fetch attempt 1 at 12:21:35 PM
+186 info attempt registry request try #1 at 12:21:35 PM
+187 http fetch GET https://registry.npmjs.org/which/-/which-1.1.2.tgz
+188 silly addNameRange number 2 { name: 'chalk', range: '>=0.5.1 <0.6.0', hasData: true }
+189 silly addNameRange versions [ 'chalk',
+189 silly addNameRange   [ '0.1.0',
+189 silly addNameRange     '0.1.1',
+189 silly addNameRange     '0.2.0',
+189 silly addNameRange     '0.2.1',
+189 silly addNameRange     '0.3.0',
+189 silly addNameRange     '0.4.0',
+189 silly addNameRange     '0.5.0',
+189 silly addNameRange     '0.5.1',
+189 silly addNameRange     '1.0.0',
+189 silly addNameRange     '1.1.0',
+189 silly addNameRange     '1.1.1' ] ]
+190 silly addNamed chalk@0.5.1
+191 verbose addNamed "0.5.1" is a plain semver version for chalk
+192 silly cache afterAdd chalk@0.5.1
+193 verbose afterAdd /home/venkatraman/.npm/chalk/0.5.1/package/package.json not in flight; writing
+194 verbose afterAdd /home/venkatraman/.npm/chalk/0.5.1/package/package.json written
+195 http fetch 200 https://registry.npmjs.org/async/-/async-0.9.2.tgz
+196 http fetch 200 https://registry.npmjs.org/which/-/which-1.1.2.tgz
+197 silly fetchAndShaCheck shasum 486c48af6dfecc7a7dcf9c655acf108d2dcbdf3d
+198 silly fetchAndShaCheck shasum aea74d5e61c1f899613bf64bda66d4c78f2fd17d
+199 verbose addTmpTarball /tmp/npm-18564-fb28e42f/registry.npmjs.org/which/-/which-1.1.2.tgz not in flight; adding
+200 verbose addTmpTarball already have metadata; skipping unpack for which@1.1.2
+201 verbose addTmpTarball /tmp/npm-18564-fb28e42f/registry.npmjs.org/async/-/async-0.9.2.tgz not in flight; adding
+202 verbose addTmpTarball already have metadata; skipping unpack for async@0.9.2
+203 http 304 https://registry.npmjs.org/cross-spawn
+204 silly get cb [ 304,
+204 silly get   { date: 'Sun, 13 Sep 2015 06:51:41 GMT',
+204 silly get     via: '1.1 varnish',
+204 silly get     'cache-control': 'max-age=60',
+204 silly get     etag: '"33L4Y9CZMCQK1WD5HM3A75P4K"',
+204 silly get     age: '52',
+204 silly get     connection: 'keep-alive',
+204 silly get     'x-served-by': 'cache-sin6921-SIN',
+204 silly get     'x-cache': 'HIT',
+204 silly get     'x-cache-hits': '1',
+204 silly get     'x-timer': 'S1442127101.132332,VS0,VE0',
+204 silly get     vary: 'Accept' } ]
+205 verbose etag https://registry.npmjs.org/cross-spawn from cache
+206 verbose get saving cross-spawn to /home/venkatraman/.npm/registry.npmjs.org/cross-spawn/.cache.json
+207 silly addNameRange number 2 { name: 'cross-spawn', range: '>=0.2.3 <0.3.0', hasData: true }
+208 silly addNameRange versions [ 'cross-spawn',
+208 silly addNameRange   [ '0.1.0',
+208 silly addNameRange     '0.1.1',
+208 silly addNameRange     '0.1.2',
+208 silly addNameRange     '0.1.3',
+208 silly addNameRange     '0.1.4',
+208 silly addNameRange     '0.1.5',
+208 silly addNameRange     '0.1.6',
+208 silly addNameRange     '0.1.7',
+208 silly addNameRange     '0.2.0',
+208 silly addNameRange     '0.2.1',
+208 silly addNameRange     '0.2.2',
+208 silly addNameRange     '0.2.3',
+208 silly addNameRange     '0.2.4',
+208 silly addNameRange     '0.2.5',
+208 silly addNameRange     '0.2.6',
+208 silly addNameRange     '0.2.7',
+208 silly addNameRange     '0.2.8',
+208 silly addNameRange     '0.2.9',
+208 silly addNameRange     '0.3.0',
+208 silly addNameRange     '0.4.0',
+208 silly addNameRange     '0.4.1',
+208 silly addNameRange     '1.0.0',
+208 silly addNameRange     '1.0.1',
+208 silly addNameRange     '1.0.2',
+208 silly addNameRange     '1.0.3',
+208 silly addNameRange     '1.0.4',
+208 silly addNameRange     '2.0.0' ] ]
+209 silly addNamed cross-spawn@0.2.9
+210 verbose addNamed "0.2.9" is a plain semver version for cross-spawn
+211 silly cache afterAdd cross-spawn@0.2.9
+212 verbose afterAdd /home/venkatraman/.npm/cross-spawn/0.2.9/package/package.json not in flight; writing
+213 verbose afterAdd /home/venkatraman/.npm/cross-spawn/0.2.9/package/package.json written
+214 http 304 https://registry.npmjs.org/dargs
+215 silly get cb [ 304,
+215 silly get   { date: 'Sun, 13 Sep 2015 06:51:41 GMT',
+215 silly get     via: '1.1 varnish',
+215 silly get     'cache-control': 'max-age=60',
+215 silly get     etag: '"3QBPPP6B8SZRBCZB60DEAFTSP"',
+215 silly get     age: '52',
+215 silly get     connection: 'keep-alive',
+215 silly get     'x-served-by': 'cache-sin6921-SIN',
+215 silly get     'x-cache': 'HIT',
+215 silly get     'x-cache-hits': '1',
+215 silly get     'x-timer': 'S1442127101.609089,VS0,VE0',
+215 silly get     vary: 'Accept' } ]
+216 verbose etag https://registry.npmjs.org/dargs from cache
+217 verbose get saving dargs to /home/venkatraman/.npm/registry.npmjs.org/dargs/.cache.json
+218 silly addNameRange number 2 { name: 'dargs', range: '>=4.0.0 <5.0.0', hasData: true }
+219 silly addNameRange versions [ 'dargs',
+219 silly addNameRange   [ '0.1.0',
+219 silly addNameRange     '1.0.0',
+219 silly addNameRange     '2.0.0',
+219 silly addNameRange     '2.0.1',
+219 silly addNameRange     '2.0.2',
+219 silly addNameRange     '2.0.3',
+219 silly addNameRange     '2.1.0',
+219 silly addNameRange     '3.0.0',
+219 silly addNameRange     '3.0.1',
+219 silly addNameRange     '4.0.0',
+219 silly addNameRange     '4.0.1' ] ]
+220 silly addNamed dargs@4.0.1
+221 verbose addNamed "4.0.1" is a plain semver version for dargs
+222 silly cache afterAdd dargs@4.0.1
+223 verbose afterAdd /home/venkatraman/.npm/dargs/4.0.1/package/package.json not in flight; writing
+224 verbose afterAdd /home/venkatraman/.npm/dargs/4.0.1/package/package.json written
+225 verbose about to build /home/venkatraman/Desktop/psd2html/node_modules/grunt-contrib-sass
+226 verbose unlock done using /home/venkatraman/.npm/_locks/grunt-contrib-sass-448f32f4c1c8aabe.lock for /home/venkatraman/Desktop/psd2html/node_modules/grunt-contrib-sass
+227 verbose stack Error: EACCES: permission denied, mkdir '/home/venkatraman/.npm/which/1.1.2'
+227 verbose stack     at Error (native)
+228 verbose cwd /home/venkatraman/Desktop/psd2html
+229 error Linux 3.16.0-48-generic
+230 error argv "/home/venkatraman/.nvm/versions/node/v4.0.0/bin/node" "/home/venkatraman/.nvm/versions/node/v4.0.0/bin/npm" "install" "grunt-contrib-sass" "--save-dev"
+231 error node v4.0.0
+232 error npm  v2.14.2
+233 error path /home/venkatraman/.npm/which/1.1.2
+234 error code EACCES
+235 error errno -13
+236 error syscall mkdir
+237 error Error: EACCES: permission denied, mkdir '/home/venkatraman/.npm/which/1.1.2'
+237 error     at Error (native)
+237 error  { [Error: EACCES: permission denied, mkdir '/home/venkatraman/.npm/which/1.1.2']
+237 error   errno: -13,
+237 error   code: 'EACCES',
+237 error   syscall: 'mkdir',
+237 error   path: '/home/venkatraman/.npm/which/1.1.2',
+237 error   parent: 'grunt-contrib-sass' }
+238 error Please try running this command again as root/Administrator.
+239 verbose exit [ -13, true ]
+240 verbose unbuild node_modules/grunt-contrib-sass
+241 info preuninstall grunt-contrib-sass@0.9.2
+242 info uninstall grunt-contrib-sass@0.9.2
+243 verbose unbuild rmStuff grunt-contrib-sass@0.9.2 from /home/venkatraman/Desktop/psd2html/node_modules
+244 info postuninstall grunt-contrib-sass@0.9.2
+245 silly gentlyRm /home/venkatraman/Desktop/psd2html/node_modules/grunt-contrib-sass is being purged from base /home/venkatraman/Desktop/psd2html
+246 verbose gentlyRm don't care about contents; nuking /home/venkatraman/Desktop/psd2html/node_modules/grunt-contrib-sass
+247 silly vacuum-fs purging /home/venkatraman/Desktop/psd2html/node_modules/grunt-contrib-sass
+248 silly vacuum-fs quitting because other entries in /home/venkatraman/Desktop/psd2html/node_modules
