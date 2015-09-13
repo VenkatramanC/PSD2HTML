@@ -18,5 +18,9 @@
   "homepage": "https://github.com/VenkatramanC/psd2html#readme",
   "dependencies": {
     "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^0.9.2"
   }
 }
