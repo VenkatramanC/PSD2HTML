@@ -3,13 +3,14 @@ module.exports = function  (grunt) {
 		sass: {                              // Task 
  			dist: {                            // Target 
     		files: {                         // Dictionary of files 
-    			'styles.css': 'styles.scss' 
+    			'assets/stylesheets/common.css': 'assets/stylesheets/src/common.scss'
+          'assets/stylesheets/land.css': 'assets/stylesheets/src/land.scss' 
     		}      		
     	}
     },
     watch: {
       css: {
-       files: ['*.scss'],
+       files: ['assets/stylesheets/src*.scss'],
        tasks: ['sass']
      }	
    }
@@ -17,7 +18,7 @@ module.exports = function  (grunt) {
   
 grunt.loadNpmTasks('grunt-contrib-sass');
 grunt.loadNpmTasks('grunt-contrib-watch');
-grunt.registerTask('default' , ['sass','http-server:dev','watch']);
+grunt.registerTask('default' , ['sass','watch']);
 };
 
 
