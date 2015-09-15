@@ -7,4 +7,31 @@ body {
   top: 50%;
   transform: translateY(-50%); }
 
+header nav.navbar {
+  margin-bottom: 0;
+  background-color: transparent;
+  border-width: 0 0 1px 0;
+  border-color: rgba(255, 255, 255, 0.15); }
+  header nav.navbar form {
+    text-align: center; }
+    header nav.navbar form input {
+      height: 2.4em;
+      border-radius: 1.2em; }
+    header nav.navbar form i.fa {
+      margin-left: -2.3em;
+      color: #100000 transparent; }
+  header nav.navbar a.navbar-brand .name {
+    color: #DF2BEC;
+    font-size: 2em; }
+  header nav.navbar a.navbar-brand .tagline {
+    color: #FFFFFF;
+    font-size: 0.7em;
+    padding-left: 0.5em; }
+  header nav.navbar.navbar-default .navbar-nav > li > a, header nav.navbar.navbar-default .navbar-nav > li > a:hover, header nav.navbar.navbar-default .navbar-nav > li > a:visited, header nav.navbar.navbar-default .navbar-nav > li > a:link {
+    color: #100000;
+    border-bottom: 3px solid transparent; }
+  header nav.navbar.navbar-default .navbar-nav > li > a:hover {
+    border-bottom: 3px solid #100000;
+    transition: border-color 0.3s ease-in; }
+
 /*# sourceMappingURL=common.css.map */
