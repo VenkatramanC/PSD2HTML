@@ -12,14 +12,12 @@ header nav.navbar {
   background-color: transparent;
   border-width: 0 0 1px 0;
   border-color: rgba(255, 255, 255, 0.15); }
-  header nav.navbar form {
-    text-align: center; }
-    header nav.navbar form input {
-      height: 2.4em;
-      border-radius: 1.2em; }
-    header nav.navbar form i.fa {
-      margin-left: -2.3em;
-      color: #100000 transparent; }
+  header nav.navbar form input {
+    height: 2.4em;
+    border-radius: 1.2em; }
+  header nav.navbar form i.fa {
+    margin-left: -2.3em;
+    color: #100000 transparent; }
   header nav.navbar a.navbar-brand .name {
     color: #DF2BEC;
     font-size: 2em; }

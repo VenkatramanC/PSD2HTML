@@ -1,0 +1,52 @@
+#about {
+  background-color: #2e3b4d;
+  color: #C0C0C0;
+  padding: 15vh 0; }
+  #about h3 {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: bold; }
+  #about p {
+    font-weight: 300; }
+
+#about-action {
+  background-color: #bc5063;
+  color: #FFFFFF;
+  background-image: url("../images/Nightsky.jpg");
+  padding: 25vh 0;
+  text-align: center;
+  background-size: cover;
+  background-position: 50% 100%;
+  margin: 0 auto;
+  position: relative; }
+  #about-action #oval {
+    content: '';
+    transform: translateX(-40);
+    left: 50%;
+    width: 100px;
+    height: 50px;
+    background: red;
+    border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    background-color: #2e3b4d;
+    position: relative;
+    margin-top: -13em; }
+  #about-action h2 {
+    margin-bottom: 0.5em; }
+  #about-action p {
+    max-width: 50vw;
+    margin: 0 auto; }
+  #about-action a {
+    background-color: #FFFFFF;
+    color: #ce404e;
+    display: inline-block;
+    margin-top: 2em;
+    border-radius: 1.5em;
+    padding: 0.3em;
+    height: 3em;
+    line-height: 3em; }
+    #about-action a:hover {
+      text-decoration: none; }
+
+/*# sourceMappingURL=about.css.map */
