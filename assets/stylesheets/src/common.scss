@@ -16,6 +16,14 @@ header {
     border-width: 0 0 1px 0;
     border-color: rgba(255, 255, 255, 0.15);
 
+    &.affix {
+      background-color: #2e3b4d; 
+    }
+
+    &.affix-top {
+      background-color: transparent;
+    }
+
     form {
       input{
         height: 2.4em;
@@ -30,9 +38,9 @@ header {
 
     a.navbar-brand {
       .name {
-      color: #DF2BEC;
-      font-size: 2em;
-    }
+        color: #DF2BEC;
+        font-size: 2em;
+      }
       .tagline {
         color: #FFFFFF; 
         font-size: 0.7em;
@@ -40,16 +48,38 @@ header {
       }
     }
 
-    &.navbar-default .navbar-nav>li>a {
-      &, &:hover, &:visited, &:link {
-      color :#100000;
-      border-bottom: 3px solid transparent;
-      }
+    &.navbar-default .navbar-nav>li {
 
-      &:hover {
+      &>a {
+        &, &:hover, &:visited, &:link {
+          color :#100000;
+          border-bottom: 3px solid transparent;
+          background-color: transparent;
+        }
+
+        &:hover {
          border-bottom: 3px solid #100000;
          transition: border-color 0.3s ease-in;
+       }
+     }
+
+       &.active a {
+          border-color: #FFF;
+         
+         &, &:hover, &:visited, &:link{
+          background-color: transparent;
+         }       
       }
     }
   }
+} 
+
+footer {
+  background-color: #2e3b4d;
+  color: #FFFFFF;
+  padding: 20vh 0;
+  text-align: center;
+
 }
+
+
