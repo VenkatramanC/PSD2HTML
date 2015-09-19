@@ -1,0 +1,34 @@
+/*
+Error: Invalid CSS after "faq.scss": expected "{", was ""
+        on line 1 of assets/stylesheets/src/faq.scss
+
+1: faq.scss
+
+Backtrace:
+assets/stylesheets/src/faq.scss:1
+/home/venkatraman/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/scss/parser.rb:1162:in `expected'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/scss/parser.rb:1098:in `expected'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/scss/parser.rb:1093:in `tok!'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/scss/parser.rb:638:in `block'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/scss/parser.rb:632:in `ruleset'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/scss/parser.rb:657:in `block_child'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/scss/parser.rb:647:in `block_contents'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/scss/parser.rb:117:in `stylesheet'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/scss/parser.rb:42:in `parse'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/engine.rb:403:in `_to_tree'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/exec/sass_scss.rb:410:in `run'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/exec/base.rb:52:in `parse'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/exec/base.rb:19:in `parse!'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/bin/sass:13:in `<top (required)>'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/bin/sass:23:in `load'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/bin/sass:23:in `<main>'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/bin/ruby_executable_hooks:15:in `eval'
+/home/venkatraman/.rvm/gems/ruby-2.2.3/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"faq.scss\": expected \"{\", was \"\"\A         on line 1 of assets/stylesheets/src/faq.scss\A \A 1: faq.scss"; }
